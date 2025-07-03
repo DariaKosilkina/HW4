@@ -22,18 +22,18 @@ public class Main {
             System.out.println("Если скорость " + speed + " км/ч, то можно ездить спокойно");
         }
 //task4
-        int ageNew = 5;
-        if (ageNew >= 2 && ageNew <= 6) {
-            System.out.println("Если возраст человека равен " + ageNew + ", то ему нужно ходить в детский сад.");
+        int ageToGo = 5;
+        if (ageToGo >= 2 && ageToGo <= 6) {
+            System.out.println("Если возраст человека равен " + ageToGo + ", то ему нужно ходить в детский сад.");
         }
-        if (ageNew >= 7 && ageNew <= 17) {
-            System.out.println("Если возраст человека равен " + ageNew + ", то ему нужно ходить в школу.");
+        if (ageToGo >= 7 && ageToGo <= 17) {
+            System.out.println("Если возраст человека равен " + ageToGo + ", то ему нужно ходить в школу.");
         }
-        if (ageNew >= 18 && ageNew <= 24) {
-            System.out.println("Если возраст человека равен " + ageNew + ", то его место в университете");
+        if (ageToGo >= 18 && ageToGo <= 24) {
+            System.out.println("Если возраст человека равен " + ageToGo + ", то его место в университете");
         }
-        if (ageNew > 24) {
-            System.out.println("Если возраст человека равен " + ageNew + ", то ему пора ходить на работу.");
+        if (ageToGo > 24) {
+            System.out.println("Если возраст человека равен " + ageToGo + ", то ему пора ходить на работу.");
         }
 //task5
         int ageAttraction = 15;
